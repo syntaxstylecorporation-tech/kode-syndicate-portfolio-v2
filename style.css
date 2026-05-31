@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
+html{
+    scroll-behavior:smooth;
+}
 
 body{
     background:#050505;
@@ -346,4 +349,27 @@ footer{
     border-top:1px solid #ff0088;
 
     color:#888;
+}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    margin-right:10px;
+
+    padding:12px 25px;
+
+    background:#ff0088;
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 0 15px #ff0088;
 }
